@@ -1,0 +1,17 @@
+body {
+    margin: 20px;
+}
+
+
+.book {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid red;
+    color: aqua;
+}
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}

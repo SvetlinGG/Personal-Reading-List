@@ -18,7 +18,8 @@ header {
     background-color: var(--color-text-secondary);
     color: var(--color-surface);
     width: 10%;
+    height: 40%;
     font-family: var(--font-mono);
-    font-size: var(--font-regular);
+    font-size: var(--text-sm);
     border-radius: var(--space-3);
 }

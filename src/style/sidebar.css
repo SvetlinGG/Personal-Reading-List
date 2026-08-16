@@ -5,23 +5,47 @@ body {
 nav {
     display: flex;
     flex-direction: column;
+    row-gap: var(--space-6);
     min-height: 100vh;
     flex-shrink: 0;
     width: var(--sidebar-width);
-    background-color: aqua;
+    background-color: var(--color-bg-tertiary);
     padding: var(--space-3);
 }
 
 
 .book {
-    width: 2rem;
-    height: 2rem;
-    border: 1px solid red;
-    color: aqua;
+    width: var(--space-8);
+    height: var(--space-8);
+    background-color: var(--color-accent);
+    border-radius: var(--radius-md);
+    padding: var(--space-1);
 }
 .navbar {
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 10px;
+}
+h1 {
+    font-family: var(--font-heading);
+    font-weight: bold;
+    font-size: var(--text-lg);
+}
+input {
+    background-color: var(--color-surface);
+    padding-left: var(--space-3);
+    border-radius: var(--radius-md);
+    height: var(--space-8);
+}
+h4 {
+    font-family: var(--font-mono);
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+}
+
+.library-items {
+    font-family: var(--font-mono);
+    color: var(--color-text-primary);
+    font-size: var(--text-sm);
 }

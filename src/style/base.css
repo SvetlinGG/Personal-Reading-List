@@ -1,3 +1,4 @@
 @import url("/src/style/tailwind.css");
 @import url("/src/style/tokens.css");
-@import url("/src/style/sidebar.css")
+@import url("/src/style/sidebar.css");
+@import url("/src/style/header.css");

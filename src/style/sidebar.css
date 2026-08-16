@@ -52,10 +52,17 @@ h4 {
 .all-books, .currently-reading, .want-to-read, .read, .favorites {
     display: flex;
     align-items: center;
+    height: var(--space-10);
     gap: var(--space-3)
 }
 .book-item, .open-book-item, .bookmark-item, .check-item, .star-item {
     width: var(--space-5);
     height: var(--space-5);
     color: var(--color-text-primary);
+}
+.all-books:hover, .currently-reading:hover, .want-to-read:hover, .read:hover, .favorites:hover {
+    color: var(--color-accent);
+    background-color: var(--color-bg-primary);
+    border-radius: var(--radius-md);
+    font-size: var(--font-semibold);
 }

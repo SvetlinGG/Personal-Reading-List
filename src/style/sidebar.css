@@ -49,3 +49,13 @@ h4 {
     color: var(--color-text-primary);
     font-size: var(--text-sm);
 }
+.all-books, .currently-reading, .want-to-read, .read, .favorites {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3)
+}
+.book-item, .open-book-item, .bookmark-item, .check-item, .star-item {
+    width: var(--space-5);
+    height: var(--space-5);
+    color: var(--color-text-primary);
+}

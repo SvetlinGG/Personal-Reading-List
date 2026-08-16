@@ -69,3 +69,13 @@ h4 {
     font-size: var(--font-semibold);
     border-left: var(--color-accent) solid;
 }
+.book-item:hover, .open-book-item:hover, .bookmark-item:hover, .check-item:hover, .star-item:hover {
+    color: var(--color-accent) !important;
+    font-size: var(--font-semibold) !important;
+}
+
+.sidebar-end {
+    margin-top: auto;
+    border-top: 1px solid var(--color-text-secondary);
+    padding-top: var(--space-3);
+}

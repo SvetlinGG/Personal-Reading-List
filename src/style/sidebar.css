@@ -53,16 +53,19 @@ h4 {
     display: flex;
     align-items: center;
     height: var(--space-10);
-    gap: var(--space-3)
+    gap: var(--space-3);
+    padding-left: var(--space-2);
 }
 .book-item, .open-book-item, .bookmark-item, .check-item, .star-item {
     width: var(--space-5);
     height: var(--space-5);
     color: var(--color-text-primary);
+    
 }
 .all-books:hover, .currently-reading:hover, .want-to-read:hover, .read:hover, .favorites:hover {
     color: var(--color-accent);
     background-color: var(--color-bg-primary);
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-sm);
     font-size: var(--font-semibold);
+    border-left: var(--color-accent) solid;
 }

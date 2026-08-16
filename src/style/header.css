@@ -5,5 +5,20 @@ header {
     border-bottom: 1px solid var(--color-text-tertiary);
     justify-content: flex-end;
     align-items: center;
+    gap: var(--space-8);
     background-color: var(--color-bg-primary);
+    padding-right: var(--space-6);
+}
+.search-books {
+    border: 1px solid var(--color-text-tertiary);
+    width: 20%;
+}
+
+.btn-register {
+    background-color: var(--color-text-secondary);
+    color: var(--color-surface);
+    width: 10%;
+    font-family: var(--font-mono);
+    font-size: var(--font-regular);
+    border-radius: var(--space-3);
 }

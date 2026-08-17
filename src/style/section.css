@@ -14,3 +14,10 @@
     grid-template-rows: var(--content-max-width) auto auto;
     box-shadow: var(--shadow-md);
 }
+
+.poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: var(--color-border-subtle);
+}

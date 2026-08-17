@@ -12,3 +12,10 @@ async function fetchJSON(params){
 
 }
 
+export async function  searchBooks({ q, page = 1}){
+    return fetchJSON({s: q, page});
+}
+
+export async function getBookById(id){
+    return fetchJSON({ i: id, plot: 'full' });
+}

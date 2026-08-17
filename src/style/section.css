@@ -21,3 +21,12 @@
     object-fit: cover;
     background: var(--color-border-subtle);
 }
+
+.meta {
+    padding: var(--space-4) var(--space-5);
+}
+.title {
+    margin:0 0 var(--space-1);
+    font-size: var(--space-4);
+    color: var(--color-text-primary);
+}

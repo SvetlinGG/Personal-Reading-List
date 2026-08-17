@@ -5,3 +5,12 @@
     gap: var(--space-6);
     margin-top: var(--space-8);
 }
+
+.card {
+    background: var(--color-bg-tertiary);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: var(--content-max-width) auto auto;
+    box-shadow: var(--shadow-md);
+}

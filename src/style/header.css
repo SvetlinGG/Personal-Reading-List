@@ -2,7 +2,7 @@ header {
     flex: 1;
 }
 
-article {
+form {
     width: 100%;
     height: var(--space-16);
     display: flex;
